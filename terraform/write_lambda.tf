@@ -12,7 +12,7 @@ resource "aws_lambda_function" "write_data" {
   role = aws_iam_role.lambda_exec.arn
 
   tags = {
-    Owner = "Andreas.Rotaru@bridging-it.de"
+    Owner = "Andreas.Rotaru"
   }
 }
 
@@ -21,7 +21,7 @@ resource "aws_cloudwatch_log_group" "lambda_log_group" {
   
   retention_in_days = 1
   tags = {
-    Owner = "Andreas.Rotaru@bridging-it.de"
+    Owner = "Andreas.Rotaru"
   }
 }
 
@@ -43,7 +43,7 @@ resource "aws_iam_role" "lambda_exec" {
   })
 
   tags = {
-    Owner = "Andreas.Rotaru@bridging-it.de"
+    Owner = "Andreas.Rotaru"
   }
 }
 

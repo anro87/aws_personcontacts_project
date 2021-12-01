@@ -25,7 +25,7 @@ resource "aws_s3_bucket" "s3_www_bucket" {
     error_document = "index.html"
   }
   tags = {
-    Owner = "Andreas.Rotaru@bridging-it.de"
+    Owner = "Andreas.Rotaru"
   }
 }
 

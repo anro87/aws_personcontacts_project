@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "lambda_bucket" {
   acl           = "private"
   force_destroy = true
   tags = {
-    Owner = "Andreas.Rotaru@bridging-it.de"
+    Owner = "Andreas.Rotaru"
   }
 }
 

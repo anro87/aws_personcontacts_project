@@ -8,7 +8,7 @@ resource "aws_apigatewayv2_api" "api_gw" {
     allow_headers = ["content-type","Authorization"]
   }
   tags = {
-    Owner = "Andreas.Rotaru@bridging-it.de"
+    Owner = "Andreas.Rotaru"
   }
 }
 
@@ -93,7 +93,7 @@ resource "aws_cloudwatch_log_group" "api_gw_log_group" {
   name              = "/aws/api_gw/lambda_api_gw"
   retention_in_days = 1
   tags = {
-    Owner = "Andreas.Rotaru@bridging-it.de"
+    Owner = "Andreas.Rotaru"
   }
 }
 

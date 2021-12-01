@@ -17,6 +17,6 @@ resource "aws_dynamodb_table" "basic-dynamodb-table" {
   }
 
   tags = {
-    Owner = "Andreas.Rotaru@bridging-it.de"
+    Owner = "Andreas.Rotaru"
   }
 }
