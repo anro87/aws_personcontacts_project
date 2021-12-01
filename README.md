@@ -7,3 +7,9 @@ Sample Playground project using Terraform, AWS Lambda, AWS API Gateway, DynamoDB
 * Maven
 * Java
 * Terraform
+
+# Execute the project
+* Deploy the environment on AWS: `sh build_deploy.sh`
+* Destroy the environment on AWS: `sh destroy.sh`
+
+# Architecture
