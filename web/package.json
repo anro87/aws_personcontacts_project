@@ -1,0 +1,38 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "type": "module",
+  "author": "Andreas Rotaru",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-amplify/auth": "^4.3.16",
+    "@aws-amplify/core": "^4.3.8",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "^5.0.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^6.0.2"
+  },
+  "scripts": {
+    "start": "REACT_APP_AWS_REGION=$AWS_REGION REACT_APP_API_GW_URL=$API_GW_URL REACT_APP_COGNITO_USER_POOL_ID=$COGNITO_USER_POOL_ID REACT_APP_COGNITO_APP_CLIENT_ID=$COGNITO_APP_CLIENT_ID react-scripts start",
+    "build": "REACT_APP_AWS_REGION=$AWS_REGION REACT_APP_API_GW_URL=$API_GW_URL REACT_APP_COGNITO_USER_POOL_ID=$COGNITO_USER_POOL_ID REACT_APP_COGNITO_APP_CLIENT_ID=$COGNITO_APP_CLIENT_ID react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
